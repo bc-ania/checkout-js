@@ -9,4 +9,5 @@ module.exports = {
     },
     setupFilesAfterEnv: ['../../jest-setup.ts'],
     coverageDirectory: '../../coverage/packages/adyen-integration',
+    testPathIgnorePatterns: ['/adyenv2/e2e/', '/adyenv3/e2e/'],
 };
