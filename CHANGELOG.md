@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.445.1-prerelease.1708947123060](https://github.com/bigcommerce/checkout-js/compare/v1.444.2...v1.445.1-prerelease.1708947123060) (2024-02-26)
+
+
+### Features
+
+* **other:** LOCAL-1444 delivery translation ([#1715](https://github.com/bigcommerce/checkout-js/issues/1715)) ([96ede68](https://github.com/bigcommerce/checkout-js/commit/96ede6891f55a451f03dfaf5ec5912e86258352b))
+* **payment:** PAYPAL-3371 bump ([85dfc04](https://github.com/bigcommerce/checkout-js/commit/85dfc04d871c171088a8eab7451eaf7d2a568331))
+* **payment:** PI-1366 e2e tests for Adyen integration on Checkout JS ([81b73b3](https://github.com/bigcommerce/checkout-js/commit/81b73b339aea44c89c05c582d7fbc5f28239fcfe))
+
+
+### Bug Fixes
+
+* **customer:** CHECKOUT-8073 Remove email address from message on sign in link ([#1711](https://github.com/bigcommerce/checkout-js/issues/1711)) ([d8a98d6](https://github.com/bigcommerce/checkout-js/commit/d8a98d6c6637310f434f14448a171bbad29cb2e8))
+
 ## [1.445.0](https://github.com/bigcommerce/checkout-js/compare/v1.444.5...v1.445.0) (2024-02-26)
 
 
