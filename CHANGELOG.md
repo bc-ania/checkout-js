@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.458.1-prerelease.1711047734090](https://github.com/bigcommerce/checkout-js/compare/v1.457.3...v1.458.1-prerelease.1711047734090) (2024-03-21)
+
+
+### Features
+
+* **payment:** PAYPAL-3586 Update Braintree Accelerated Checkout payment strategy to support Fastlane + Connect ([14951cf](https://github.com/bigcommerce/checkout-js/commit/14951cf851eeee3038c96171d8042ee654927f5a))
+* **payment:** PI-1537 Refactor the existing `bluesnapv2` payment strategy in Checkout-js ([2d7f1d0](https://github.com/bigcommerce/checkout-js/commit/2d7f1d023a1c3036561502863d97f69ae0b26ac1))
+
+
+### Bug Fixes
+
+* **payment:** PAYPAL-3849 updated paypal commerce fastlane instrument details css class name ([6710c02](https://github.com/bigcommerce/checkout-js/commit/6710c025724d7cca28b509b4f93c9b21e2cdaee1))
+
+
+### Code Refactoring
+
+* **payment:** PAYPAL-000 updated AnalyticsProvider tests to use react testing library instead of enzyme ([ff78a52](https://github.com/bigcommerce/checkout-js/commit/ff78a52716f4de47bca19cbef749f9f2575db8ea))
+
 ## [1.458.0](https://github.com/bigcommerce/checkout-js/compare/v1.457.5...v1.458.0) (2024-03-21)
 
 
