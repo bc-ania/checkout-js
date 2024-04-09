@@ -1,0 +1,14 @@
+{
+  "extends": ["../../.eslintrc.json"],
+  "overrides": [
+    {
+      "files": ["*.spec.tsx", "*.mock.ts"],
+      "rules": {
+        "@typescript-eslint/consistent-type-assertions": "off",
+        "@typescript-eslint/no-unsafe-assignment": "off",
+        "@typescript-eslint/naming-convention": "off"
+
+      }
+    }
+  ]
+}

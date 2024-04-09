@@ -1,8 +1,8 @@
 import { ObjectSchema, ValidationError } from 'yup';
 
-import { TranslateValidationErrorFunction } from '../../formFields';
-
-import getCheckoutcomFieldsetValidationSchemas from './getCheckoutcomFieldsetValidationSchemas';
+import getCheckoutcomFieldsetValidationSchemas, {
+    TranslateValidationErrorFunction,
+} from './getCheckoutcomFieldsetValidationSchemas';
 
 const getFormfields = {
     ideal: () => ({

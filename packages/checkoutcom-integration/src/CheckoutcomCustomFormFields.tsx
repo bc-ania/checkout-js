@@ -10,11 +10,9 @@ import React, {
 } from 'react';
 
 import { TranslatedString } from '@bigcommerce/checkout/locale';
-
-import { DropdownTrigger } from '../../ui/dropdown';
-import { CheckboxFormField, FormField } from '../../ui/form';
-import { TextFieldForm } from '../creditCard';
-import PaymentContext from '../PaymentContext';
+import { PaymentFormContext } from '@bigcommerce/checkout/payment-integration-api';
+import { CheckboxFormField, DropdownTrigger, FormField } from '@bigcommerce/checkout/ui';
+import TextFieldForm from './checkoutcomFieldsets/TextFieldForm';
 
 interface CheckoutcomAPMFormProps {
     method: PaymentMethod;
@@ -48,19 +46,17 @@ interface SepaCreditor {
     sepaCreditorIdentifier: string;
     sepaCreditorPostalCode: string;
 }
-
 const Sepa: FunctionComponent<CheckoutcomAPMFormProps> = ({ method, debtor }) => {
-    const paymentContext = useContext(PaymentContext);
+    const paymentContext = useContext(PaymentFormContext);
     const creditor: SepaCreditor = method.initializationData.sepaCreditor;
-
     useEffect(() => {
-        paymentContext?.disableSubmit(method, true);
+        paymentContext?.paymentForm.disableSubmit(method, true);
 
-        return () => paymentContext?.disableSubmit(method, false);
+        return () => paymentContext?.paymentForm.disableSubmit(method, false);
     }, [paymentContext, method]);
 
     function toggleSubmitButton(isChecked: boolean) {
-        paymentContext?.disableSubmit(method, !isChecked);
+        paymentContext?.paymentForm.disableSubmit(method, !isChecked);
     }
 
     return (
