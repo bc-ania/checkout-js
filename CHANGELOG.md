@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.512.2-prerelease.1722345971513](https://github.com/bigcommerce/checkout-js/compare/v1.509.1...v1.512.2-prerelease.1722345971513) (2024-07-30)
+
+
+### Features
+
+* **checkout:** PI-1540 Refactor Digital River payment strategy ([5b4bb01](https://github.com/bigcommerce/checkout-js/commit/5b4bb01decd558e648126e9b788b3f0300e52af7))
+* **checkout:** PI-2290 Adyen Credit Card installments implementation ([3c9a3ec](https://github.com/bigcommerce/checkout-js/commit/3c9a3ec783475d41c82b9f8907ea5eb610440259))
+* **payment:** PAYPAL-4406 added EmailWatermark component ([1e99ca3](https://github.com/bigcommerce/checkout-js/commit/1e99ca3a6d2a4e39632ad36593e42bcb6f588cce))
+* **payment:** STRIPE-329 bump checkout-sdk version ([235a49b](https://github.com/bigcommerce/checkout-js/commit/235a49bc0012b729200c422a166ff653079ffacb))
+
 ### [1.512.1](https://github.com/bigcommerce/checkout-js/compare/v1.512.0...v1.512.1) (2024-07-29)
 
 ## [1.512.0](https://github.com/bigcommerce/checkout-js/compare/v1.511.0...v1.512.0) (2024-07-29)
